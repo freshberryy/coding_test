@@ -16,7 +16,7 @@ int main(){
     while(q.size()){
         tie(y, x) = q.front();
         q.pop();
-        for(int i = 0; i < 4; i++){
+        for(int i = 0; i < n; i++){
             int ny = y + dy[i]; 
             int nx = x + dx[i]; 
             if(ny < 0 || ny >= n || nx < 0 || nx >= m) continue;
