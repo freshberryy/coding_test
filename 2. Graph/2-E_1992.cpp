@@ -20,7 +20,7 @@ string go(int y, int x, int len){
             }
         }
     }
-    return string(1, b); //모든 코드가 동일한 경우
+    return string(1, b); //모든 좌표값이 동일한 경우
 }
 int main(){
     cin >> n;
