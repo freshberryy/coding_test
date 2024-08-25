@@ -3,7 +3,7 @@ using namespace std;
 int n, m, x;
 bool broken[10];
 int possible(int c){
-    if(!c){
+    if(c == 0){
         if(broken[0]) return 0;
         else return 1;
     }
@@ -29,7 +29,7 @@ int main(){
         if(len > 0){
             int press = c - n;
             if(press < 0) press = abs(press);
-            ret = min(ret, press + len);
+            ret = min(ret, len + press);
         }
     }
     cout << ret;
