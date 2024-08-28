@@ -1,1 +1,1 @@
-team == 1 ? A++ : B++;
+    memset(o, -1, sizeof(o));

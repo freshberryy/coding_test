@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-using namespace std;  
+using namespace std;  //1
 int n, m, a[15004], cnt;
 int main(){
     cin >> n >> m;

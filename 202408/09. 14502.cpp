@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-using namespace std;  
+using namespace std;  //1
 int const dy[] = {-1, 0, 1, 0}, dx[] = {0, 1, 0, -1};
 vector<pair<int, int>> virus, wall;
 int a[12][12], visited[12][12], n, m, ret;
