@@ -1,1 +1,3 @@
-    memset(o, -1, sizeof(o));
+else if(visited[next] == visited[now] + 1){
+                    cnt[next] += cnt[now];
+                }

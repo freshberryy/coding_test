@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-using namespace std;
+using namespace std; //1
 int n, a[1000004], o[1000004];
 stack<int> s;
 int main(){

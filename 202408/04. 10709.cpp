@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-using namespace std;  //1
+using namespace std;  //2
 int n, m, a[104][104];
 string s; 
 int main () {

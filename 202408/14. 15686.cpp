@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-using namespace std;
+using namespace std; //1
 int n, m, a[54][54];
 vector<pair<int, int>> chicken, house;
 vector<vector<int>> indexedChicken;

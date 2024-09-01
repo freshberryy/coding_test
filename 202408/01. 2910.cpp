@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-using namespace std;//1
+using namespace std;//2
 int n, c, x;
 map<int, int> mp, mp_first;
 vector<pair<int, int>> v;

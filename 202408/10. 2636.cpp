@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-using namespace std;  //1
+using namespace std;  //2
 int dy[] = {-1,0,1,0}, dx[] = {0,1,0,-1};
 int a[104][104], visited[104][104];
 int n, m, meltingTime, lastNumber;

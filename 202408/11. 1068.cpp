@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-using namespace std;  //1
+using namespace std;  //2
 int n, par, root, del;
 vector<int> adj[54];
 int dfs(int here){
