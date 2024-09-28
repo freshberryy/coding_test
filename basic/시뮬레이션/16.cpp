@@ -19,7 +19,8 @@ void combi(int start, vector<int> v){
         print(v);
         return;
     }
-    for(int i = start + 1; i < n; i++){
+    //5개 중
+    for(int i = start + 1; i < 5; i++){
         v.push_back(arr[i]);
         combi(i, v);
         v.pop_back();
